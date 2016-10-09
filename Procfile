@@ -1,1 +1,1 @@
-web: java -Xmx300m -jar gogo-server.jar 1111
+web: java $JAVA_OPTS -cp gogo-server.jar io.gogo.GoGoServer $PORT
